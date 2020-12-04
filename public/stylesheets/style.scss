@@ -1,8 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  // indice
+.full{ 
+  background-color: #000000;
+  .portada{
+  background-image: url(../images/cinema.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 5%;
+  height: 680px;
+
+.contenido{
+  text-align: left;
+  padding-right: 5%;
+  width: 250px;
+  float: right;
+  h1{
+    color: #ffffff;
+    font-size: 50pt;
+    padding: 10px 0;
+  }
+  a{
+    background-color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+  }
+}
+  }
+}
 }
 
 a {
   color: #00B7FF;
+}
+
 }
